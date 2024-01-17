@@ -1,0 +1,50 @@
+﻿    
+    .gv 
+    {
+        font-family: Arial;
+        margin-top: 30px;
+        font-size: 14px;
+    }
+
+        .gv th {
+            background-color: #2a3f54;
+            font-weight: bold;
+            color: #fff;
+            padding: 2px 10px;
+        }
+
+    .gv td 
+    {
+        padding: 2px 10px;
+    }
+
+/*    input[type="submit"] 
+    {
+        margin: 2px 10px;
+        padding: 2px 20px;
+        background-color: #0a0a0a;
+        border-radius: 10px;
+        border: solid 1px #000;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    input[type="submit"]:hover 
+    {
+        background-color: #0d6efd;
+    }*/
+
+    #mask 
+    {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        z-index: 4;
+        opacity: 0.4;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)"; /* first!*/
+        filter: alpha(opacity=40); /* second!*/
+        background-color: gray;
+        display: none;
+        width: 100%;
+        height: 100%;
+    }
